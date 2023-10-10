@@ -1,4 +1,80 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
-}
+/* common styling for all elements */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* styling the body */
+  body{
+    width: 100vw;
+    margin-top: 10px;
+    overflow-x: hidden;
+  }
+
+/* styling the main container using grid */
+  #main-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+  }
+
+/* common styling for hero and villain grid*/
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+/* styling the hero grid */
+  #hero-grid{
+    justify-content: right;
+    justify-items: right;
+  }
+
+/* styling the villain grid */
+  #villain-grid{
+    justify-content: left;
+  }
+
+/* Styling the character cards */
+  .game-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 2px, rgb(209, 213, 219) 0px 0px 0px 2px inset;
+    padding: 20px;
+    border-radius: 10px;
+    height: 260px;
+  }
+
+  h4{
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 5px;
+  }
+
+/* Styling the score div and its contents */
+  #score-div{
+    height: 100vh;
+    width: 300px;
+    text-align: center;
+  }
+
+  h3{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+/* styling the footer */
+  .footer{
+    margin-top: 100px;
+    margin-left : 80px;
+    font-size : 18px;
+  }
