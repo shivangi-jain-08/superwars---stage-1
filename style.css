@@ -125,6 +125,12 @@
   h3 {
     font-size: 36px;
   }
+
+  .footer {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* Media query for mobile screen */
@@ -166,6 +172,8 @@
   }
 
   .footer {
-    margin: 10px 0;
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
   }
 }
